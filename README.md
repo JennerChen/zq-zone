@@ -16,7 +16,7 @@ Based on [gatsby-tailwind-demo](https://github.com/jlengstorf/gatsby-tailwind-de
 
 ## Why?
 
-If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site, the starters in *gatsby-starter-portfolio* are a perfect fit for you! The project's goal is to offer minimalistic and fast websites. 
+If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site, the starters in *gatsby-starter-portfolio* are a perfect fit for you! The project's goal is to offer minimalistic and fast websites.
 
 I hope you like my starters and create something awesome! To see some of my work, you can visit my [website](https://www.lekoarts.de) or support me on [Patreon](https://www.patreon.com/lekoarts) to get some neat rewards (4K images, project files, tutorial insights). Every pledge on Patreon helps me create more free starters!
 
@@ -135,3 +135,5 @@ import 'typeface-open-sans';
 This starter uses [typefaces](https://github.com/KyleAMathews/typefaces) by Kyle Mathews. Have a look at the repository if you want to install & use other fonts.
 
 You'll also need to configure `fonts` in `tailwind.js` to reflect the changes. You then can use the fonts with `font-sans` and `font-serif`.
+
+https://app.netlify.com/sites/distracted-mestorf-d091b7/overview
