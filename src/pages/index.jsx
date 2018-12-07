@@ -531,7 +531,7 @@ const Index = () => (
         <Inner>
           <Title>关于我</Title>
           <AboutHero>
-            <Avatar src={"https://zq.beaf.tech/img/avatar.jpg"} alt="zhang qing" />
+            <Avatar src={avatar} alt="zhang qing" />
             <AboutSub>
               我的职业是前端工程师, 熟悉 react,
               工作上喜欢把一切东西流程化。日常喜欢：😍老婆，😍代码，😍💰，😍🇨🇳
@@ -579,7 +579,7 @@ const Index = () => (
 
           <ContactText>
             <a href="https://github.com/JennerChen" target={"_blank"}>
-              <img src={"/logos/Github-Mark-Light-32px.png"} />{" "}
+              <img src={"/logos/gml32px.png"} />{" "}
               <span style={{ marginLeft: 5 }}>
                 JennerChen
               </span>
