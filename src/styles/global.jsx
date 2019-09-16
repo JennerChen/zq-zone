@@ -1,5 +1,6 @@
 /* eslint no-unused-expressions: 0 */
 import { injectGlobal } from 'emotion';
+import './name.css';
 
 injectGlobal`
   *, *:before, *:after {

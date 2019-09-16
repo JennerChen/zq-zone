@@ -296,7 +296,14 @@ const Index = () => (
         <Hero>
           <BigTitle>
             Hi, 我是
-            <br /> 张庆
+            <br />
+            <a href="https://github.com/JennerChen" className="eUnoIM" target="blank" title="Zhang Qing | GitHub">
+              <small>
+                <sub>&gt;</sub>
+              </small>
+              <p>张庆</p>
+              <small className="cursor">&nbsp;</small>
+            </a>
           </BigTitle>
           <Subtitle>一个前端程序员.</Subtitle>
         </Hero>
@@ -316,8 +323,8 @@ const Index = () => (
               link="https://github.com/freshesx/mogul"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              开源项目 mogul 作者， mogul 致力于 管理页面开发, 基于 react
-              + mobx + antd。 是 antd 的补充。 与之 配套的 mogul-scripts 则是对
+              开源项目 mogul 作者， mogul 致力于 管理页面开发, 基于 react + mobx
+              + antd。 是 antd 的补充。 与之 配套的 mogul-scripts 则是对
               create-react-app 的补充, 提供更多企业级页面需要的工程化内容
             </ProjectCard>
             <ProjectCard
@@ -580,9 +587,7 @@ const Index = () => (
           <ContactText>
             <a href="https://github.com/JennerChen" target={"_blank"}>
               <img src={"/logos/gml32px.png"} />{" "}
-              <span style={{ marginLeft: 5 }}>
-                JennerChen
-              </span>
+              <span style={{ marginLeft: 5 }}>JennerChen</span>
             </a>
           </ContactText>
         </Inner>
